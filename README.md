@@ -91,7 +91,7 @@ Edit the Dockerfile, change the version-numbers on top. If any tools are
 missing, just add them at the correct place (where all the other `npm install`
 and `gem install` commands are) and then rebuild the image using:
 
-`docker build --no-cache -t docker-frontend-tools-legacy-sass-grunt .`
+`docker build --no-cache -t docker-frontend-tools .`
 
 See what I did here? I changed the tag on the image (the `-t` part), so I can
 have different images with different versions (and use them how I want).
